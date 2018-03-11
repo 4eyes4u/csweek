@@ -1,7 +1,7 @@
 /*
-Data structure: Segment tree with lazy propagation
-Time complexity: O(logn) per operation [where n is range]
-Memory complexity: O(n) [where n is size of array that segment tree is built on]
+    Data structure: Segment tree with lazy propagation
+    Time complexity: O(logn) per operation [where n is range]
+    Memory complexity: O(n) [where n is size of array that segment tree is built on]
 
 * * *
 Merge operation is sum on interval.
