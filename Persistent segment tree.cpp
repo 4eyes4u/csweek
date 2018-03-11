@@ -1,7 +1,7 @@
 /*
-Data structure: Persistent segment tree
-Time complexity: O(logu) per operation [where u is size of universe U]
-Memory complexity: O(n*logu) [where n is number of states and u size of universe U]
+    Data structure: Persistent segment tree
+    Time complexity: O(logu) per operation [where u is size of universe U]
+    Memory complexity: O(n*logu) [where n is number of states and u size of universe U]
 
 * * *
 Merge operation is maximum on interval.
