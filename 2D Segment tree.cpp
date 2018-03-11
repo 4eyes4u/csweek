@@ -1,6 +1,9 @@
 /*
     Data structure: 2D Segment tree
     Complexity: O(logn * logm) [per operaton, where n and m are numbers of rows and cols respectively]
+
+* * *
+Merge operation is sum on submatrix.
 */        
 
 #include <bits/stdc++.h>
@@ -65,7 +68,7 @@ int query(int idx_row, int left_row, int right_row, int idx_col, int left_col, i
     return ret;
 }
 
-int query(int idx_row, int left_row, int right_row, int r1, int c1, int r2, int c2) {
+int query(int idx_row, int left_row, int right_row, int r1, int c1, int r2, int c2) { // r1 <= r2, c1 <= c2
     if (r1 <= left_row && right_row <= r2) return query(idx_row, left_row, right_row, 1, 1, m, r1, c1, r2, c2);
     
     int mid = (left_row + right_row) / 2;
